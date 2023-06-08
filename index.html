@@ -42,9 +42,9 @@
   <div class="nav-bg">
     <nav class="navegacion-principal contenedor">
       <a href="#">inicio</a>
-      <a href="#">productos</a>
-      <a href="#">productos personalizados</a>
-      <a href="#">sobre nosotros</a>
+      <a href="productos.html">productos</a>
+      <a href="productospersonalizados.html">productos personalizados</a>
+      <a href="sobrenosotros.html">sobre nosotros</a>
     </nav>
   </div>
 
@@ -130,48 +130,54 @@
 
   <section id="seccion-contacto">
     <h2>contacto</h2>
-    <form class="formulario" action="">
+    <form class="formulario" action="https://formsubmit.co/fbd6506d500e3b3eacbf34c14edb311e " method="POST">
       <fieldset>
         <legend>contactame llenando todos los campos</legend>
         <!--  div contenedor campos -->
         <div class="contenedor-campos">
           <div class="campo">
             <label for="">nombre<span class="no-capitalize">(s)</span></label>
-            <input class="imput-text" type="text" placeholder="Nombre o nombres" required>
+            <input class="imput-text" type="text" name="nombre" placeholder="Nombre o nombres" required>
           </div>
 
           <div class="campo">
             <label for="">apellido paterno</label>
-            <input class="imput-text" type="text" placeholder="Apellido paterno" required>
+            <input class="imput-text" type="text" name="apellidoPaterno" placeholder="Apellido paterno" required>
           </div>
 
           <div class="campo">
             <label for="">apellido materno</label>
-            <input class="imput-text" type="text" placeholder="Apellido materno" required>
+            <input class="imput-text" type="text" name="apellidoMaterno" placeholder="Apellido materno" required>
           </div>
 
           <div class="campo">
             <label for="">correo</label>
-            <input class="imput-text" type="email" placeholder="Email" required>
+            <input class="imput-text" type="email" name="email" placeholder="Email" required>
           </div>
 
           <div class="campo">
-            <label for="">producto<span class="no-capitalize">(s)</span> personalizados</label>
-            <textarea class="imput-text" name="" id="" cols="30" rows="10"
+            <label for="">producto<span class="no-capitalize">(s)</span> personalizado<span
+                class="no-capitalize">(s)</span></label>
+            <textarea class="imput-text" name="producto" id="" cols="30" rows="10"
               placeholder="Describa el producto personalizado que desee"></textarea>
           </div>
           <!--  div contenedor campos -->
         </div>
         <!-- div boton de enviar -->
-          <input class="boton btnContacto-center" type="submit" value="Enviar">
+        <input class="boton btnContacto-center" type="submit" value="Enviar">
         <!-- div boton de enviar -->
+        <!-- inputs ocultos para envio de mail -->
+        <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
+        <input type="hidden" name="_captcha" value="false">
+        <!-- inputs ocultos para envio de mail -->
       </fieldset>
     </form>
   </section>
-
+  <!-- footer -->
   <footer>
     <p>&copy; 2023 Talabartería García </p>
   </footer>
+  <!-- footer -->
 </body>
 
 </html>
