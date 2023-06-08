@@ -199,17 +199,10 @@ h1 span {
   background-image: url(../img/local\ 2.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 0px -200px;
+  background-position: center center;
   height: 500px;
-  position: relative;
   margin-bottom: 2rem;
-}
-
-.contenido-hero {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  position: relative;
 }
 
 .contenido-hero {
@@ -217,6 +210,10 @@ h1 span {
   background-color: rgba(0, 0, 0, 0.7);
   width: 100%;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .contenido-hero h2,
