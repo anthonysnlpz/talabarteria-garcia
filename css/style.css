@@ -20,6 +20,7 @@ html {
   font-size: 62.5%;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  position: relative;
 }
 
 *,
@@ -40,6 +41,7 @@ footer {
   text-transform: uppercase;
   text-align: center;
 }
+
 
 footer>p {
   color: var(--texto);
@@ -75,6 +77,12 @@ footer>p {
 
 .contenedor {
   max-width: 100rem;
+  margin: 0 auto;
+}
+
+.contenedor-nosotros {
+  max-width: 100rem;
+  height: 45rem;
   margin: 0 auto;
 }
 
@@ -320,7 +328,7 @@ h1 span {
 /** Grid **/
 .grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: 2rem;
 }
 
@@ -334,6 +342,17 @@ h1 span {
 .producto {
   padding: 1rem;
   margin:0 auto;
+}
+
+.producto__posicion {
+  grid-column: 1;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .producto__posicion {
+    grid-column: 2;
+  }
 }
 
 .producto__imagen {
