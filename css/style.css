@@ -341,7 +341,11 @@ h1 span {
 /** Productos **/
 .producto {
   padding: 1rem;
-  margin:0 auto;
+  /* margin:0 auto; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .producto__posicion {
@@ -370,7 +374,8 @@ h1 span {
 }
 
 .producto__nombre,
-.producto__precio {
+.producto__precio,
+.roducto__detalles {
   font-family: var(--fuentePrincipal);
   margin: 1rem 0;
   text-align: center;
