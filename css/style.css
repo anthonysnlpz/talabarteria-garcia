@@ -369,7 +369,7 @@ h1 span {
 }
 
 .producto__nombre {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .producto__precio {
@@ -379,7 +379,8 @@ h1 span {
 
 .producto__nombre,
 .producto__precio,
-.roducto__detalles {
+.roducto__detalles,
+.producto__elaborado {
   font-family: var(--fuentePrincipal);
   margin: 1rem 0;
   text-align: center;
