@@ -153,6 +153,27 @@ h1 span {
   border: none;
 }
 
+.btn-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn_detalles {
+  background-color: var(--footer);
+  color: var(--blanco);
+  padding: 1rem 3rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  border-radius: .5rem;
+  width: 50%;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+}
+
 .btnContacto-center {
   display: flex;
   justify-content: center;
@@ -345,7 +366,6 @@ h1 span {
 /** Productos **/
 .producto {
   padding: 1rem;
-  /* margin:0 auto; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -386,3 +406,20 @@ h1 span {
   text-align: center;
   line-height: 1.2;
 }
+
+/* sweetakert2 css */
+.swal_alert__enviar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55rem; /* Ajusta el ancho según tus necesidades */
+  font-size: 1.8rem; /* Ajusta el tamaño de fuente según tus necesidades */
+}
+.swal_alert__productos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55rem; /* Ajusta el ancho según tus necesidades */
+  font-size: 1.8rem; /* Ajusta el tamaño de fuente según tus necesidades */
+}
+/* sweetakert2 css */

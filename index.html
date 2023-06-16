@@ -6,9 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- normalize -->
-  <link rel="preload" href="node_modules/normalize.css" as="style">
-  <link rel="stylesheet" href="node_modules/normalize.css">
+  <link rel="preload" href="node_modules/normalize.css/normalize.css" as="style">
+  <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
   <!-- normalize -->
+  <!-- sweetalert2 -->
+  <link rel="stylesheet" href="node_modules/sweetalert2/dist/sweetalert2.min.css">
+  <!-- sweetalert2 -->
   <!-- fuentes externas -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,6 +19,7 @@
     href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Commissioner:wght@300&family=Cookie&display=swap"
     rel="stylesheet">
   <!-- fuentes externas -->
+
   <!-- estilos personalizados -->
   <link rel="preload" href="css/style.css" as="style">
   <link rel="stylesheet" href="css/style.css">
@@ -85,7 +89,8 @@
           <path d="M16.5 10.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
         </svg>
       </div>
-      <p>Se realizan productos de piel a medida y personalizados, según las preferencias del cliente en cuanto al tamaño, modelo, diseño, color y tipo de piel.
+      <p>Se realizan productos de piel a medida y personalizados, según las preferencias del cliente en cuanto al
+        tamaño, modelo, diseño, color y tipo de piel.
       </p>
     </section>
 
@@ -102,7 +107,8 @@
           <path d="M6 5l14 1l-1 7h-13" />
         </svg>
       </div>
-      <p>Contamos con una galeria con los productos más nuevos tanto personalizados que se han hecho a peticón de los clientes así como prodcutos comunes sin diseños especificos.
+      <p>Contamos con una galeria con los productos más nuevos tanto personalizados que se han hecho a peticón de los
+        clientes así como prodcutos comunes sin diseños especificos.
       </p>
     </section>
     <section class="servicio">
@@ -161,7 +167,7 @@
           <!--  div contenedor campos -->
         </div>
         <!-- div boton de enviar -->
-        <input class="boton btnContacto-center" type="submit" value="Enviar">
+        <input class="boton btnContacto-center alert_btn__enviar" type="submit" value="Enviar">
         <!-- div boton de enviar -->
         <!-- inputs ocultos para envio de mail -->
         <input type="hidden" name="_next" value="https://talabarteria-garcia-2023.netlify.app/">
@@ -175,6 +181,16 @@
     <p>&copy; 2023 Talabartería García </p>
   </footer>
   <!-- footer -->
+  <!-- Jquery -->
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+    integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+  <!-- Jquery -->
+  <!-- cdn sweetalert2 -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <!-- cdn sweetalert2 -->
+  <!-- script alert -->
+  <script type="text/javascript" src="js/alerts/alert.js"></script>
+  <!-- script alert -->
 </body>
 
 </html>
